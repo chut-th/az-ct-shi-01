@@ -28,23 +28,3 @@ module "resource_group_vm_01" {
   project = "shivm"
   running_number = "01"
 }
-
-module "resource_group_test_01" {
-  source  = "chut-th/resource-group/azurerm"
-  version = "1.0.3"
-  company = "ct"
-  environment = "npr"
-  location = "southeastasia"
-  project = "shitest"
-  running_number = "01"
-}
-
-module "resource_group_test_02" {
-  source  = "chut-th/resource-group/azurerm"
-  version = "1.0.3"
-  company = "ct"
-  environment = "npr"
-  location = "southeastasia"
-  project = "shitest"
-  running_number = "02"
-}
