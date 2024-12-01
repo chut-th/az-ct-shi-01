@@ -39,7 +39,7 @@ module "resource_group_test_01" {
   running_number = "01"
 }
 
-module "resource_group_test_01" {
+module "resource_group_test_02" {
   source  = "chut-th/resource-group/azurerm"
   version = "1.0.3"
   company = "ct"
