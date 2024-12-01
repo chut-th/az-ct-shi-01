@@ -18,7 +18,7 @@ module "resource_group_sta_01" {
   running_number = "01"
 }
 
-/*
+
 module "resource_group_vm_01" {
   source  = "chut-th/resource-group/azurerm"
   version = "1.0.3"
@@ -28,4 +28,3 @@ module "resource_group_vm_01" {
   project = "shivm"
   running_number = "01"
 }
-*/
